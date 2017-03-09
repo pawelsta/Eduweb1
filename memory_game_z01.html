@@ -10,9 +10,25 @@ div#memory_board{
 		padding:24px;
 		margin:0px auto;
 		}
+div#memory_board > div {
+		background: url(tile_bg.jpg) no-repeat;
+		border:#000 1px solid;
+		width:71px;
+		height:71px;
+		float:left;
+		margin:10px;
+		padding:20px;
+		font-size:64px;
+		cursor:pointer;
+		text-align:center;
+		}
+		
 </style>
 <script>
-
+var memory_array = ['A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H','I','I','J','J','K','K','L','L',];
+var memory_values = [];
+var memory_tiles_ids = [];
+var tiles_flipped = 0;
 </script>
 
 </head>
